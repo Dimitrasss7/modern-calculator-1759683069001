@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-bg-light dark:bg-bg-dark text-black dark:text-white;
+}
+
+button {
+  @apply transition-all duration-200 ease-in-out hover:scale-105;
+}
